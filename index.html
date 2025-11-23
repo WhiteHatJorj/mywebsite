@@ -1,7 +1,114 @@
-<html>
-<h1> George Website</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George | IT Engineer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #0078d7, #00bcd4);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #0078d7;
+        }
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0078d7;
+            margin-bottom: 15px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #0078d7;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+    </style>
+</head>
 <body>
-    <h2> About me</h2>
-    <p>I'm George an IT Engineer who knows how to package apps using PSADT.</p>
+    <header>
+        <h1>George</h1>
+        <p>IT Engineer | Tech Enthusiast | Problem Solver</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm George, an IT Engineer passionate about technology, cloud solutions, and cybersecurity. I love building efficient systems and solving complex problems to help businesses thrive in the digital era.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Networking</div>
+            <div class="skill">Cloud Computing</div>
+            <div class="skill">Cybersecurity</div>
+            <div class="skill">Linux Administration</div>
+            <div class="skill">Automation</div>
+            <div class="skill">Troubleshooting</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:george.trandafirescu@outlook.com">george.trandafirescu@outlook.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/george" target="_blank">LinkedIn Profile</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 George | Built with ❤️ and HTML/CSS</p>
+    </footer>
 </body>
 </html>
